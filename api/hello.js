@@ -33,7 +33,7 @@ webSocket.on(eventFilter, (event) => {
 );
 
 const app = express();
-const metadataDir = path.join(__dirname, "./");
+const metadataDir = path.join(__dirname, "./metadata/");
 const imageDir = path.join(__dirname, "./images/");
 const port = 8080;
 
